@@ -1,10 +1,13 @@
 package com.stillcoolme.mall.tiny.mbg.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 public class PmsBrand implements Serializable {
+    @ApiModelProperty(value = "品牌id")
     private Long id;
 
+    @ApiModelProperty(value = "品牌名称")
     private String brandName;
 
     private static final long serialVersionUID = 1L;
